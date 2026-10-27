@@ -1,7 +1,21 @@
-# ComfyUI AYS 30+ Scheduler
+# ComfyUI `ays_30+` 调度器 / AYS30+ Scheduler
 
 为 ComfyUI 的公共调度器列表添加 `ays_30+`，可在普通 KSampler 和
 KSampler (Efficient) 的 `scheduler` 下拉框中选择，无需添加独立节点。
+
+**你要找的 `ays_30+` / `AYS30+` / `AYS 30+` 调度器就在这里。**
+GitHub 仓库名不能包含 `+`，因此仓库地址写作
+`comfyui-ays_30plus-scheduler`；`30plus` 对应 `30+`，
+安装后调度器下拉框中的实际名称仍然是 **`ays_30+`**。
+
+This repository provides the **`ays_30+` (AYS30+ / AYS 30+) scheduler for
+ComfyUI**, based on the Align Your Steps (AYS) 30-step variant from ComfyUI-ppm.
+The repository URL uses `30plus` because GitHub repository names do not support
+the `+` character. The scheduler name in ComfyUI remains **`ays_30+`**.
+
+搜索关键词 / Search keywords: `ays_30+`, `AYS30+`, `AYS 30+`,
+`ays_30plus`, `ComfyUI AYS scheduler`, `Align Your Steps`,
+`ComfyUI 调度器`, `KSampler Efficient`, `Efficiency Nodes`, `SDXL`.
 
 ## 安装
 
@@ -11,7 +25,7 @@ KSampler (Efficient) 的 `scheduler` 下拉框中选择，无需添加独立节�
 git clone https://github.com/linjian-ufo/comfyui-ays_30plus-scheduler.git
 ```
 
-私有仓库需要先登录有访问权限的 GitHub 账号。安装后重启 ComfyUI，
+安装后重启 ComfyUI，
 保存工作流并刷新浏览器，即可选择 `ays_30+`。不需要额外安装 Python 依赖。
 
 本地文件夹可命名为 `comfyui-ays_30+-scheduler`；仓库名使用 `30plus`
